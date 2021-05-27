@@ -24,7 +24,7 @@ from main import capitalize
 class Tests(unittest.TestCase):
     def test(self):
         self.assertEqual(capitalize("hello world"),"Hello world")
-        self.assertEqual(capitalize(""),"Hello world")
+        self.assertEqual(capitalize("python"),"Python")
 
         
 if __name__=='__main__':
